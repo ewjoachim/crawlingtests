@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello yay</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimal HTML Page with LD+JSON</title>
+    
     <script type="application/ld+json">
-{
-  "@context": "https://json-ld.org/contexts/person.jsonld",
-  "@id": "http://dbpedia.org/resource/John_Lennon",
-  "name": "John Lennon",
-  "born": "1940-10-09",
-  "spouse": "http://dbpedia.org/resource/Cynthia_Lennon"
-}
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.example.com/",
+      "name": "Example Website Name"
+    }
     </script>
-  </head>
-  <body>
-
-    <h1>Hello</h1>
-  </body>
+</head>
+<body>
+    <h1>Welcome to a Minimal Page</h1>
+    <p>This page contains a minimal example of structured data in LD+JSON format.</p>
+</body>
 </html>
